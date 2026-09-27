@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="quiz-section">
+      <div class="quiz-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div class="quiz-header">
+          <div class="quiz-title-container">
+            <h1 class="quiz-title">JAVASCRIPT QUIZ</h1>
+          </div>
+          <p class="quiz-count" id="quiz-count">Question 1 of 5</p>
+        </div>
+
+        <div class="question-container">
+          <h2 class="question" id="question"></h2>
+        </div>
+
+        <div class="answer-btns-container" id="answer-btns"></div>
+
+        <div class="quiz-controls">
+          <button class="next-btn" id="next-btn" type="button" disabled>
+            Next Question
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
